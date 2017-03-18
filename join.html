@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Join the Clearave</title><!--This would dispaly on the browser window-->
+	
+    <link rel="stylesheet" href="style.css"/><!--this is CSS-->
+	
+	<script type="text/javascript" src="js.js"></script>
+	
+
+</head>
+
+<body>
+<div id="ContainerJ">
+
+	<div id="Header">
+	    <div id="logo">Join the Clearave</div><!--First Title-->
+	</div>
+
+	<div class="ContentJ">
+	    <form name="input" method="post">
+		<div class="ContentU">
+		    User Name:
+			<input type="text" name="userName" id="userName"/>
+            Position:
+		    <select id="position">
+			    <option value="Officer" name ="officer" id="officer">Officer</option>
+				<option value="Manager" name ="managerA" id="managerA">Manager</option>
+				<option value="Engineer" name ="engineer" id="engineer">Engineer</option>
+				<option value="Atchitect" name ="atchitect" id="atchitect">Atchitect</option>
+			</select>
+		</div>
+
+		<div class="ContentU">
+			<fieldset>
+		        <legend>Your current skills</legend>
+			    <br/>
+		        <input class="current" type="checkbox" value="Web Design" name="skills" id="skills"/>Web Design
+		        <br/>
+			    <input class="current" type="checkbox" value="Java" name="skills" id="skills"/>Java
+			    <br/>
+			    <input class="current" type="checkbox" value="Database" name="skills" id="skills"/>Database
+			</fieldset>
+		</div>
+
+		<div class="ContentU">
+		    <fieldset>
+		        <legend>Cities Expected</legend>
+			    <br/>
+		        <input type="radio" value="Beijing" name="cities" id="cities"/>Beijing
+		        <br/>
+			    <input type="radio" value="Shenzhen" name="cities" id="cities"/>Shenzhen
+			    <br/>
+			    <input type="radio" value="Zhuhai" name="cities" id="cities"/>Zhuhai
+			</fieldset>
+		</div>
+		    
+
+		<div class="ContentU">
+		    Recent Jobs
+			<br/>
+			<select multiple="multiple" size="6" id="positionM">
+			    <option value="Assitant" name="assitant" id="assitant">Assitant</option>
+				<option value="Software Engineer" name="softwareEngineer" id="softwareEngineer">Software Engineer</option>
+				<option value="Customer Service" name="customerService" id="customerService">Customer Service</option>
+				<option value="Manager" name="managerB" id="managerB">Manager</option>
+				<option value="CEO" name="ceo" id="ceo">CEO</option>
+			</select>
+		</div>
+		
+		<div id="ContentW">
+		    Please enter your words:
+		    </br>
+            <textarea rows="3" col="20" id="words"></textarea>
+	    </div>	
+	   		
+	   	<div id="ContentF">	
+		    Upload a File
+			<input type="file" value="file" name="file" id="file"/>   
+        </div>  
+			<input type="submit" value="Submit" name="submit" id="submit" onclick="beforeSubmit();"/>
+			
+			<input type="reset" value="Reset" name="reset" id="reset"/>
+
+		</form>
+	</div>
+	<a href="myhome.html">
+		<div id="join"><b>Back to homepage</b>
+        </div>
+    </a>
+
+    <div id="Footer">
+			
+	
+	<p id="TitleC">The elder's life : <input type="text" id="Lresult" name="result"/>s</p>
+
+	<button type="button" onclick="addLife()" id="lifeButton">+1s</button>
+			
+
+	</div>	
+</div>			
+				
+</body>
+</html>
+			
