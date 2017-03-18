@@ -1,7 +1,7 @@
 #Container{
 	position: relative;
     width:960px;
-	height:1620px;
+	height:1120px;
 	margin:0 auto;/*let the container to be horizontally centered*/
 	background:#DFFFFF;
 }
