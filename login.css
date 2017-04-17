@@ -1,0 +1,63 @@
+
+#mainContainer{
+	position: absolute;
+	width: 480px;
+	height: 550px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgba(220, 55, 55, 0.75);
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+.topContainer{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 450px;
+	height: 60px;
+	color: red;
+	text-align: center;
+	font-size: 40px;
+}
+#errMsg{
+	position: relative;
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 450px;
+	height: 20px;
+	color: red;
+	text-align: center;
+	font-size: 20px;
+}
+.middleContainer{
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+	padding: 10px;
+	margin-right: 100px;
+	text-align: right;
+}
+.Footer{
+	position: relative;
+	margin: 0 auto;
+	padding-left: 80px;
+}
+#lifeButton{
+	height: 50px;
+	width: 200px;
+	color: white;
+	margin-left: 80px;
+	background-color: rgba(255, 0, 0, 0.70);
+	font-size: 26px;
+}
+#lifeButton:hover{
+	height: 50px;
+	width: 200px;
+	background-color: red;
+	font-size: 26px;
+}
+#lifeButton:active{
+	height: 50px;
+	width: 200px;
+	background-color: red;
+	font-size: 25px;
+}
